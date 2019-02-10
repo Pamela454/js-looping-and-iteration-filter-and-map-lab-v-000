@@ -14,5 +14,5 @@ function driverNamesWithRevenueOver (drivers, revenue) {
 function exactMatch(drivers, obj) {
   return drivers.filter(function(driver) {
     Prop = Object.getOwnPropertyNames(obj)
-    return Prop === obj; });
+    return Prop === driver; });
 }
